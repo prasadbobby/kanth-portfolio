@@ -70,8 +70,8 @@ const HeroSection = ({ scrollToProjectSection }) => {
           className={styles.text_arrow}
         />
         <p>
-          Creative Developer
-          <br />& Designer
+          Angular 
+          <br /><span style={{color: "blue"}}>&</span> Business Developer
         </p>
       </div>
 
