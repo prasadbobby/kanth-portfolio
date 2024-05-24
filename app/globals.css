@@ -1,0 +1,57 @@
+/* default css of locomotive */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* css variables */
+:root {
+  --primary-color: #eeeeee;
+  --secondary-color: #181818;
+  --popup-color: #455ce9;
+}
+
+/* boilerplate css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 400;
+  line-height: 1.45;
+  cursor: wait;
+}
+
+body:hover > .custom_cursor {
+  opacity: 1;
+}
+
+/* changing the text selection color */
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--primary-color);
+  background: var(--popup-color);
+}
+
+::selection {
+  color: var(--primary-color);
+  background: var(--popup-color);
+}
