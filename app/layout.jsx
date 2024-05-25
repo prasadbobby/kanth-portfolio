@@ -35,7 +35,7 @@ export const metadata = {
     title: title,
     images: [
       {
-        url: "/profile_pic.jpeg",
+        url: "/profile_pic.jpg",
         width: 800,
         height: 600,
       },
