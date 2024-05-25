@@ -6,10 +6,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Loading from "./components/Loading";
 import HeroSection from "./components/HeroSection";
 import AboutMe from "./components/AboutMe";
-import ProjectsSection from "./components/ProjectsSection";
+// import ProjectsSection from "./components/ProjectsSection";
 import MyStack from "./components/MyStack";
 import Experience from "./components/Experience";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import CommonLoader from "./components/commonComponents/CommonLoader";
 import useSmoothScroll from "./components/commonComponents/useSmoothScroll";
 
